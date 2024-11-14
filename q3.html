@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Output</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            padding: 50px;
+        }
+        #demo {
+            background-color: #ffffff;
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 20px auto;
+            width: 300px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        let text = "";
+        for (let i = 1; i <= 5; i++) { // Complete your answer here
+            text += "The number is " + i + "<br>"; // Complete your answer here
+        }
+        document.getElementById("demo").innerHTML = text;
+    </script>
+</body>
+</html>
